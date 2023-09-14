@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="box1">  
+    <h1 class="head">Join Us Today!</h1>
+    <p class="heading">Sign up now to become a free Member</p>
+    <form action="#">
+        
+        <label for="name">Enter your name
+        <input type="text" name="name" placeholder="Enter your Name" required /> 
+        </label>
+
+        <label for="email">Email
+        <input type="email" name="email" placeholder="Enter your Email" required />
+        </label> 
+
+        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" />
+        </label>
+
+        <label for="new-password">Create a New Password: 
+        <input id="new-password" name="new-password" type="password" minlength="8" required />
+        </label>
+
+        
+
+        <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the terms and conditions
+          </label>
+        
+
+          <a href="index.html" class="button">Submit</a>
+        
+    </form>
+    <p class="singuppara">Already have an account?</p>
+    <a href="login.html" class="button1">Sign In</a>
+    </div>
+</body>
+</html>
