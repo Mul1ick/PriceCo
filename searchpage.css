@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background: #fad3c4;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(252, 233, 215, 0.918);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: rgba(252, 233, 215, 0.918);;
+    cursor: pointer;
+}
+
+label.logo{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #F2C49A;
+}
+nav ul{
+float: right;
+margin-right: 20px;
+}
+ul li{
+    display: inline;
+    padding-right:20px;
+    font-size: 25px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:black;
+    font-size:17px;
+    padding: 7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+#new img{
+    float:right;
+    padding-top: 0px;
+    margin-top: 0px;
+    position:relative;
+    top: -30px;
+    right: -65px;
+    margin-bottom: -400px;
+}
+
+
+
+p{
+    display: block;
+    background-color: #fad3c4;
+    margin-bottom: -500px;
+    padding-top: 300px;
+    padding-left: 600px;
+    text-align: justify;
+    font-weight: 30px;
+
+} 
+    
+
+
+
+table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: -250px;
+        padding-right: 50px;
+        position: relative;
+        left: -300px;
+        
+    }
+
+th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        
+    }
+
+th {
+        background-color:#F2C49A ;
+    }
+
+
+    
+
+tr:hover {
+        background-color: #ddd;
+    }
+
+.table1{
+    padding-left: 500px;
+}

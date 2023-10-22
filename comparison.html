@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="searchpage.css">
+</head>
+<body>
+  <script src="./comp.js"></script>
+
+    <nav>
+        <label class="logo">PriceCo</label>
+        <ul>
+            <li><a  href="home1.html">Home</a></li>
+            <li><a href="About_Us.html">About Us</a></li>
+            <li><a href="login.html">Sign In</a></li>
+            <li><a class="active" href="comparison.html"> Shop Now</a> </li>
+        </ul>
+    </nav>
+    <div id="new">
+        <img style="padding-top: 1px;" src="logo-removebg-preview (1).png" alt="Logo cannot load">
+
+        
+        <p style="font-size: 15pt;">Your online shopping partner</p>  
+        
+    </div> 
+
+        <div class="container">
+        <form action="" class="search-bar">
+            <input type="text" placeholder="Search anything" id="searchbox">
+            <button id="but" type="submit" onclick="search(event)"><img src="search2nobg.jpeg"></button>
+            </form>
+        </div>
+        
+        <div class="table1">
+        <table border="1">
+            <tr>
+                <th colspan="2">Amazon</th>
+                <th colspan="2">Flipkart</th>
+            </tr>
+            <tr>
+                <td id ="photo1" rowspan="4">Img</td>
+                <td id="name1">Product name: </td>
+                <td id="photo2" rowspan="4">img</td>
+                <td id="name2">Product name:</td>
+            </tr>
+            <tr>
+                <td id="price1">Price:</td>
+                <td id="price2">Price:</td>
+            </tr>
+            <tr>
+                <td id="review1">Review:</td>
+                <td id="review2">Review:</td>
+            </tr>
+            <tr>
+                <td id="link1">Link:</td>
+                <td id="link2">Link:</td>
+
+            </tr>
+        </table>
+        </div>
+    
+        
+
+        
+        
+    
+</body>
+</html>
